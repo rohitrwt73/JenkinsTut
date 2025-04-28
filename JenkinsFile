@@ -13,7 +13,7 @@ sh 'pip3 install -r requirements.txt'
 }
 stage('Run Selenium Test') {
 steps {
-sh 'pytest sele.py'
+sh 'pytest demo.py'
 }
 }
 stage('Archive Test Report') {
